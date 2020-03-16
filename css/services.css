@@ -220,3 +220,61 @@ footer {
 footer article {
     text-align: center;
 }
+
+/* ----------This is the responsive section of the page----------*/
+
+/*----------------------Tablet-------------------------*/
+@media (max-width:800px) {
+    /*-------Nav Bar CSS-------*/
+     header{
+        flex-direction:column-reverse;
+        justify-content:space-between;
+        align-items:center;
+        margin-bottom:5%;
+     }
+     .logo{
+         margin-bottom:8%;
+     }
+     /*-------Top CSS-------*/
+    
+     /*-------Middle CSS-------*/
+          
+ }
+ 
+ /*-----------------Phone---------------*/
+ @media (max-width:500px) {
+ 
+     body{
+         margin:0 2%;
+     }
+     /*-------Nav Bar CSS-------*/
+     nav{
+         flex-direction:column;
+         justify-content:space-evenly;
+         align-items:center;
+         text-align:center;
+     }
+     nav a{
+         width:70%;
+         border-top:1px solid rgb(212, 212, 212);
+         border-bottom:1px solid rgb(212, 212, 212);
+         padding:3% 0;
+     }
+     /*-------Top CSS-------*/
+     
+     /*-------Middle CSS-------*/
+     .middle .box{
+         flex-direction:column;
+         justify-content:space-evenly;
+         align-items:center;
+         width:100%;
+     }
+     .middle .box article {
+         width: 100%
+     }
+     /*-------Footer CSS-------*/
+     footer{
+         margin:5% 0;
+     }
+    
+ }
